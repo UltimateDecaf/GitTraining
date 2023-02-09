@@ -16,7 +16,7 @@ public class Main {
     public static void printAge(){
         Scanner keyboard = new Scanner(System.in);
         System.out.print("How old are you? >> ");
-        System.out.println("You are " + keyboard.nextInt() + " years old!");
+        System.out.println("You are " + keyboard.nextInt() + " years old!:)");
     }
 
 }
