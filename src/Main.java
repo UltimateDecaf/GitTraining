@@ -9,6 +9,6 @@ public class Main {
     public static void sayHello(){
         System.out.print("What is your name? >> ");
         Scanner keyboard = new Scanner(System.in);
-        System.out.println("Hello, " + keyboard.nextLine());
+        System.out.println("Hello, " + keyboard.nextLine() + "!");
     }
 }
